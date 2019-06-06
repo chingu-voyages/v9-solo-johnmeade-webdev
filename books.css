@@ -1,0 +1,56 @@
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(118, 116, 123, 0.5);
+}
+
+html {
+  line-height: 1;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(118, 116, 123);
+  background: rgba(118, 116, 123, 0.5);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #66626b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #45345d;
+  background: rgba(139, 109, 181, 0.75);
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* MAIN STYLES */
+
+article {
+  height: 100vh;
+  border: 2px solid black;
+}
